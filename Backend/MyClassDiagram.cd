@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="lab3.Models.Client">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Client.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Orders" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="lab3.Models.Drink">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAQAAAAAAgAAAAAQABACAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Models\Drink.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Orders" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="lab3.Models.DrinkType">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAgAAAAAQAAAAgQAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\DrinkType.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Drinks" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="lab3.Models.Order">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAgAEAAAAAAAAAAAQAAAAAAAAAgAQ=</HashCode>
+      <FileName>Models\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab3.Controllers.ClientsController">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAJAQAAAAAAAAAAAAAAAAAAAABgYBAQAQ=</HashCode>
+      <FileName>Controllers\ClientsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab3.Controllers.DrinksController">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAABAAIAAAAAAAAAAAAEAABAIAAAAIAAAA=</HashCode>
+      <FileName>Controllers\DrinksController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab3.Controllers.DrinkTypesController">
+    <Position X="11.75" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAABQAAAIAAAAQAAAAIQEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\DrinkTypesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab3.Repository.DatabaseContexts">
+    <Position X="8.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAgAAAAAgAAAAAACAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository\DatabaseContexts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAM/hHhWI1YUGOfTbNXmr9pAAAAAACAAAAAAAQZgAAAAEAACAAAAB3IkZKCzMUR3bbBiVfV1Yh7D8OIAnT2QX/gQ8o0zv9sQAAAAAOgAAAAAIAACAAAAC/pal6cvFTg2f89DHDD4RlxqnuihNKhZDggK0xQHj7ToAAAADuZxbtx4F3NjItZWkXxqlPCTIhuXGrAzCB6VQru8gxVvPhAfW89r7lU2gweqOqrNB8E0UK1sJTQSgAlhBQ+YH5PCKr66TG9EBznHwDebr5KN01begn+lOdrAgCuV8i+FuGUQ/QWAlPB/yAuRLhvgUEVXMX+ByIbQ0iCWTFz99z7EAAAABMDCZVTkinrZwULEuJR6oDfB1UfuCaWtP51+k1EFHX3BDm9k/Swlcyh4jw2QQhzfpyzuMKfF5gaxeUdoJg1Bp6</EncryptedPassword>
+    <History>True|2023-04-04T16:02:04.1569738Z;False|2023-04-04T19:00:40.7822280+03:00;True|2023-04-04T18:50:02.3249790+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="lab3.Repository.DatabaseContexts">
+      <Value>Data Source=tcp:barapidbserver.database.windows.net,1433%3bInitial Catalog=lab3_db%3bUser Id=ovidiu%40barapidbserver%3bPassword=password.1</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

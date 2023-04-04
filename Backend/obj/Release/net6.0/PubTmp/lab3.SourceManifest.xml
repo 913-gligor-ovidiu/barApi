@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="D:\SEM2\MPP\barAPI\Backend\obj\Release\net6.0\PubTmp\Out\" />
+  <dbfullsql path="D:\SEM2\MPP\barAPI\Backend\obj\Release\net6.0\PubTmp\EFSQLScripts\lab3.Repository.DatabaseContexts.sql" />
+</sitemanifest>
