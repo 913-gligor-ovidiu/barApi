@@ -34,7 +34,7 @@ export default function App() {
       .then((response) => setDrinks(response.data))
       .catch((error) => console.log(error));
   };
-
+  console.log(drinks);
   const handleAddDrinkChange = (event) => {
     const target = event.target;
     const value = target.type === "checkbox" ? target.checked : target.value;
@@ -191,6 +191,8 @@ export default function App() {
               >
                 Edit
               </Button>
+            </TableCell>
+            <TableCell>
               <Button
                 variant="contained"
                 color="secondary"
