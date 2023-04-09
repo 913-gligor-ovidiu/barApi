@@ -1,35 +1,49 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import CssBaseline from "@mui/material/CssBaseline";
+import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
+import * as React from "react";
+import { AppBar, Toolbar, IconButton, Typography, Button } from "@mui/material";
+import MenuIcon from "@mui/icons-material/Menu";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { AppHome } from "./components/AppHome";
+import { AppMenu } from "./components/AppMenu";
+import { AlldrinkTypes } from "./components/drinktypes/AllDrinkTypes";
+import { DrinkTypeDetails } from "./components/drinktypes/DrinkTypeDetails";
+import { DrinkTypeUpdate } from "./components/drinktypes/DrinkTypeUpdate";
+import { DrinkTypeDelete } from "./components/drinktypes/DrinkTypeDelete";
+import { DrinkTypeAdd } from "./components/drinktypes/DrinkTypeAdd";
+import { ShowDrinksMostOrdered } from "./components/drinktypes/DrinksMostOrdered";
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
-  )
+    <React.Fragment>
+      <Router>
+        <AppMenu />
+
+        <Routes>
+          <Route path="/" element={<AppHome />} />
+          <Route path="/DrinkTypes" element={<AlldrinkTypes />} />
+          <Route path="/DrinksReport" element={<ShowDrinksMostOrdered />} />
+
+          <Route
+            path="/DrinkTypes/:DrinkTypeId/details"
+            element={<DrinkTypeDetails />}
+          />
+          <Route
+            path="/DrinkTypes/:DrinkTypeId/edit"
+            element={<DrinkTypeUpdate />}
+          />
+          <Route
+            path="/DrinkTypes/:DrinkTypeId/delete"
+            element={<DrinkTypeDelete />}
+          />
+          <Route path="/DrinkTypes/add" element={<DrinkTypeAdd />} />
+        </Routes>
+      </Router>
+    </React.Fragment>
+  );
 }
 
-export default App
+export default App;

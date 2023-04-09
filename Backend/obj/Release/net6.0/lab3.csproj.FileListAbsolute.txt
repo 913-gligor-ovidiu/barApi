@@ -596,3 +596,7 @@ D:\SEM2\MPP\barAPI\Backend\obj\Release\net6.0\refint\lab3.dll
 D:\SEM2\MPP\barAPI\Backend\obj\Release\net6.0\lab3.pdb
 D:\SEM2\MPP\barAPI\Backend\obj\Release\net6.0\lab3.genruntimeconfig.cache
 D:\SEM2\MPP\barAPI\Backend\obj\Release\net6.0\ref\lab3.dll
+D:\SEM2\MPP\barAPI\Backend\bin\Release\net6.0\System.Web.Cors.dll
+D:\SEM2\MPP\barAPI\Backend\bin\Release\net6.0\System.Net.Http.Formatting.dll
+D:\SEM2\MPP\barAPI\Backend\bin\Release\net6.0\System.Web.Http.dll
+D:\SEM2\MPP\barAPI\Backend\bin\Release\net6.0\System.Web.Http.Cors.dll

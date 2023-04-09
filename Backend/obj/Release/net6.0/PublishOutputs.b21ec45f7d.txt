@@ -12,6 +12,10 @@ D:\SEM2\MPP\barAPI\Backend\obj\Release\net6.0\PubTmp\Out\EntityFramework.dll
 D:\SEM2\MPP\barAPI\Backend\obj\Release\net6.0\PubTmp\Out\Humanizer.dll
 D:\SEM2\MPP\barAPI\Backend\obj\Release\net6.0\PubTmp\Out\MessagePack.dll
 D:\SEM2\MPP\barAPI\Backend\obj\Release\net6.0\PubTmp\Out\MessagePack.Annotations.dll
+D:\SEM2\MPP\barAPI\Backend\obj\Release\net6.0\PubTmp\Out\System.Web.Cors.dll
+D:\SEM2\MPP\barAPI\Backend\obj\Release\net6.0\PubTmp\Out\System.Net.Http.Formatting.dll
+D:\SEM2\MPP\barAPI\Backend\obj\Release\net6.0\PubTmp\Out\System.Web.Http.dll
+D:\SEM2\MPP\barAPI\Backend\obj\Release\net6.0\PubTmp\Out\System.Web.Http.Cors.dll
 D:\SEM2\MPP\barAPI\Backend\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.JsonPatch.dll
 D:\SEM2\MPP\barAPI\Backend\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\SEM2\MPP\barAPI\Backend\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Razor.Language.dll

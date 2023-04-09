@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using lab3.Models;
 using lab3.Repository;
 using lab3.DTOs;
+using Microsoft.AspNetCore.Cors;
 
 namespace lab3.Controllers
 {

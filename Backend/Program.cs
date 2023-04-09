@@ -11,16 +11,6 @@ builder.Services.AddControllers()
 builder.Services.AddDbContext<lab3.Repository.DatabaseContexts>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 
-builder.Services.AddCors(options => {
-    options.AddDefaultPolicy(policy =>
-    {
-        policy
-            .AllowAnyOrigin()
-            .AllowAnyHeader()
-            .AllowAnyMethod();
-    });
-});
-
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -34,6 +24,11 @@ builder.Services.ConfigureSwaggerGen(setup =>
     });
 });
 
+builder.Services.AddCors(p => p.AddPolicy("corsapp", builder =>
+{
+    builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
+}));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -43,7 +38,8 @@ app.UseSwaggerUI();
 
 
 app.UseHttpsRedirection();
-
+app.UseRouting();
+app.UseCors("corsapp");
 app.UseAuthorization();
 
 app.MapControllers();
